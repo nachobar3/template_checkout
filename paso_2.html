@@ -30,18 +30,16 @@
 </head>
 <body>
 <main>
+  <nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item" aria-current="page"><a href="index.html">Datos</a></li>
+      <li class="breadcrumb-item active">Pago</li>
+    </ol>
+  </nav>
     <div class="row g-5 grid">
         <img src="images/card.jpg" alt="" width="100%" class="order-md-first">
         <div class="col-md-7 col-lg-8"> <!-- Este es lo que ordena a la izquierda-->
             <h4 class="mb-3">Pago</h4>
-
-            <nav aria-label="breadcrumb">
-              <ol class="breadcrumb">
-                <li class="breadcrumb-item" aria-current="page"><a href="index.html">Datos</a></li>
-                <li class="breadcrumb-item active">Pago</li>
-                <li class="breadcrumb-item"><a href="paso_3.html">prueba</a></li>
-              </ol>
-          </nav>
     
               <div class="my-3">
                 <div class="form-check">
@@ -75,7 +73,7 @@
                 </div>
     
                 <div class="col-md-3">
-                  <input type="text" class="form-control" id="cc-expiration" placeholder="Fecha de Expiracion" required>
+                  <input type="number" class="form-control" placeholder="MM / YY" maxlength='7'>
                   <div class="invalid-feedback">
                     Expiration date required
                   </div>
@@ -88,7 +86,7 @@
                   </div>
                 </div>
               </div>
-              <a href="paso_2.html"><button class="w-100 btn btn-primary btn-lg" type="submit">Continuar</button></a>
+              <a href="paso_2.html"><button class="w-100 btn btn-primary btn-lg" type="submit">Pagar</button></a>
         </div>
 
 
