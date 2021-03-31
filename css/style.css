@@ -23,7 +23,7 @@ main {
 }
 
 .box{
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .grey_box {
@@ -37,6 +37,9 @@ main {
     text-align: left;
 }
 
+.text-muted {
+    font-size: 12px;
+}
 
 @media only screen and (min-width: 900px){
     main {
