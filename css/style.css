@@ -1,0 +1,69 @@
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+main {
+    margin: 15px 20px;
+}
+
+.py-5 {
+    padding: 1px 0px;
+}
+
+.d-block {
+    margin: 0px;
+}
+
+.box{
+    margin-bottom: 20px;
+}
+
+.grey_box {
+    background-color: rgba(207, 207, 207, 0.719);
+    padding: 7px;
+    font-size: 17px;
+}
+
+.tu_compra {
+    margin: 0 auto;
+    text-align: left;
+}
+
+
+@media only screen and (min-width: 900px){
+    main {
+        margin: 15px 40px;
+    }
+    .d-block {
+    display: none!important;
+    }
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    
+     .col-md-7 {
+            width: 100%;
+        }
+    
+    .col-md-6 {
+        width: 100%;
+    }
+    
+    .col-md-3 {
+        width: 50%;
+    }
+    .col-md-5 {
+        width: 90%;
+     }
+   
+    
+}
