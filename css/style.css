@@ -11,8 +11,11 @@ input[type=number] {
 }
 
 .text-center {
-
     padding: 0px 20px;
+}
+
+.grid .text-center {
+    padding: 20px;
 }
 
 .background {
