@@ -30,15 +30,18 @@
 </head>
 <body>
 <main>
-  <nav aria-label="breadcrumb">
-    <ol class="breadcrumb">
-      <li class="breadcrumb-item" aria-current="page"><a href="index.html">Datos</a></li>
-      <li class="breadcrumb-item active">Pago</li>
-    </ol>
-  </nav>
-    <div class="row g-5 grid">
-        <img src="images/card.jpg" alt="" width="100%" class="order-md-first">
-        <div class="col-md-7 col-lg-8"> <!-- Este es lo que ordena a la izquierda-->
+  <div class="grid">
+    <div class="background">
+      <img src="images/card-image-standard-credit-card.png" alt="" width="100%" class="order-md-first">
+    </div>
+    <div class=" g-5 content">
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item" aria-current="page"><a href="index.html">Datos</a></li>
+          <li class="breadcrumb-item active">Pago</li>
+        </ol>
+      </nav>
+        <div class="col-md-7 col-lg-8 row" > <!-- Este es lo que ordena a la izquierda-->
             <h4 class="mb-3">Pago</h4>
     
               <div class="my-3">
@@ -91,9 +94,17 @@
 
 
 
-</div>
+    </div>
+  </div>
 </main>
-
+<footer class="my-5 pt-5 text-muted text-center text-small">
+  <p class="mb-1">&copy; 2017–2021 Company Name</p>
+  <ul class="list-inline">
+    <li class="list-inline-item"><a href="#">Privacy</a></li>
+    <li class="list-inline-item"><a href="#">Terms</a></li>
+    <li class="list-inline-item"><a href="#">Support</a></li>
+  </ul>
+</footer>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>   
 </body>

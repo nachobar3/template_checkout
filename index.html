@@ -28,157 +28,153 @@
       <link href="css/form-validation.css" rel="stylesheet">
       <link href="css/style.css" rel="stylesheet">
 </head>
-<body class="bg-light">
-    <img class="d-block mx-auto" src="images/gym-coronavirus.jpg" alt="" width="100%">
-    <main>
+<body class="full_background">
+    <main class="grid_datos">
         
-        <div class="py-5 text-center">
-          
+        <div class="py-5 text-center background">
           <h2>Bienvenido a asociate.club</h2>
           <p class="lead">Para inscribirte al Plan Local de la sede Al Rio de SportClub, vamos a nescesitar que llenes el siguiente formulario</p>
         </div>
-
-        <nav aria-label="breadcrumb">
+        <div class="content bg-light">
+            <nav aria-label="breadcrumb">
             <ol class="breadcrumb">
               <li class="breadcrumb-item active" aria-current="page">Datos</li>
               <li class="breadcrumb-item"><a href="paso_2.html">Pago</a></li>
             </ol>
-        </nav>
-
-
-        <h4 class="mb-3">Datos Personales</h4>
-        <div class="row g-5 grid">
+            </nav>
+            <h4 class="mb-3">Datos Personales</h4>
+            <div class="row g-5 grid">
           
 
-            <div class="col-md-5 col-lg-4 order-md-last">
-                <div class="accordion" id="accordionExample">
-                    <div class="accordion-item">
-                      <h2 class="accordion-header" id="headingOne">
-                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
-                                <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
-                              </svg>
-                              <p class="tu_compra">Tu compra</p>
-                        </button>
-                      </h2>
-                      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                            <ul class="list-group mb-3">
-                                <li class="list-group-item d-flex justify-content-between lh-sm">
-                                  <div>
-                                    <h6 class="my-0">Plan Local Mensual</h6>
-                                    <small class="text-muted">Entrenamiento en 1 sola sede</small>
+              <div class="col-md-5 col-lg-4 order-md-last">
+                  <div class="accordion" id="accordionExample">
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
+                                  <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+                                </svg>
+                                <p class="tu_compra">Tu compra</p>
+                          </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                          <div class="accordion-body">
+                              <ul class="list-group mb-3">
+                                  <li class="list-group-item d-flex justify-content-between lh-sm">
+                                    <div>
+                                      <h6 class="my-0">Plan Local Mensual</h6>
+                                      <small class="text-muted">Entrenamiento en 1 sola sede</small>
+                                    </div>
+                                    <span>$1000</span>
+                                  </li>
+                                  
+                                  <li class="list-group-item d-flex justify-content-between bg-light">
+                                    <div class="text-success">
+                                      <h6 class="my-0">Promo Lanzamiento</h6>
+                                      <small class="text-muted">20% OFF adicional</small>
+                                      <small>KQH700</small>
+                                    </div>
+                                    <span class="text-success">−$200</span>
+                                  </li>
+                                  <li class="list-group-item d-flex justify-content-between">
+                                    <span>Total (ARS)</span>
+                                    <strong>$800</strong>
+                                  </li>
+                                </ul>
+                        
+                                <form class="card p-2">
+                                  <div class="input-group">
+                                    <input type="text" class="form-control" placeholder="Promo code">
+                                    <button type="submit" class="btn btn-secondary">Redeem</button>
                                   </div>
-                                  <span>$1000</span>
-                                </li>
-                                
-                                <li class="list-group-item d-flex justify-content-between bg-light">
-                                  <div class="text-success">
-                                    <h6 class="my-0">Promo Lanzamiento</h6>
-                                    <small class="text-muted">20% OFF adicional</small>
-                                    <small>KQH700</small>
-                                  </div>
-                                  <span class="text-success">−$200</span>
-                                </li>
-                                <li class="list-group-item d-flex justify-content-between">
-                                  <span>Total (ARS)</span>
-                                  <strong>$800</strong>
-                                </li>
-                              </ul>
-                      
-                              <form class="card p-2">
-                                <div class="input-group">
-                                  <input type="text" class="form-control" placeholder="Promo code">
-                                  <button type="submit" class="btn btn-secondary">Redeem</button>
-                                </div>
-                              </form>
+                                </form>
+                          </div>
                         </div>
                       </div>
+                      
                     </div>
-                    
-                  </div>
-              </div>
-
-
+                </div>
+  
+  
+                
+            <div class="col-md-7 col-lg-8">
               
-          <div class="col-md-7 col-lg-8">
-            
-            <!-- <form class="needs-validation" novalidate> -->
-            
-              <div class="row g-3">
-                <div class="col-sm-6">
-                  <input type="text" class="form-control" id="firstName" placeholder="Nombre" value="" required>
-                  <div class="invalid-feedback">
-                    Debe introducir un nombre valido
-                  </div>
-                </div>
-    
-                <div class="col-sm-6">
-                  <input type="text" class="form-control" id="lastName" placeholder="Apellido" value="" required>
-                  <div class="invalid-feedback">
-                    Debe introducir un apellido valido
-                  </div>
-                </div>
-
-                <div class="col-12">
-                    <input type="number" class="form-control" id="dni" placeholder="DNI" value="" required>
+              <!-- <form class="needs-validation" novalidate> -->
+              
+                <div class="row g-3">
+                  <div class="col-sm-6">
+                    <input type="text" class="form-control" id="firstName" placeholder="Nombre" value="" required>
                     <div class="invalid-feedback">
-                        Debe introducir un dni valido
-                      </div>
-                </div>
-    
-                <div class="col-12">
-                  <input type="email" class="form-control" id="email" placeholder="e-mail" required>
-                  <div class="invalid-feedback">
-                    Please enter a valid email address for shipping updates.
+                      Debe introducir un nombre valido
+                    </div>
                   </div>
-                </div>
-
-                <div class="col-sm-6">
-                    <input type="date" class="form-control" id="b_date" placeholder="Fecha de nacimiento" value="" required>
-                </div>
-
-                <div class="col-12">
-                    <input type="number" class="form-control" id="cel" placeholder="Celular" value="" required>
-                    <div class="invalid-feedback">
-                        Debe introducir un celular valido
-                      </div>
-                </div>
-    
-                <div class="col-12">
-                  <input type="text" class="form-control" id="address" placeholder="Domicilio" required>
-                  <div class="invalid-feedback">
-                    Please enter your shipping address.
-                  </div>
-                </div>
-                <div class="form-check">
-                  <input type="checkbox" class="form-check-input" id="same-address">
-                  <label class="form-check-label" for="same-address">Shipping address is the same as my billing address</label>
-                </div>
       
-                <div class="form-check">
-                  <input type="checkbox" class="form-check-input" id="save-info">
-                  <label class="form-check-label" for="save-info">Save this information for next time</label>
-                </div>
-    
-
-            <div class="grey_box">
-               <p>Al asociarte el 31 de Marzo, estarás abonando $3406 que corresponden a la suma de $106 por 1 un día de Marzo y $3.300 por el mes de Mayo.</p> 
+                  <div class="col-sm-6">
+                    <input type="text" class="form-control" id="lastName" placeholder="Apellido" value="" required>
+                    <div class="invalid-feedback">
+                      Debe introducir un apellido valido
+                    </div>
+                  </div>
+  
+                  <div class="col-12">
+                      <input type="number" class="form-control" id="dni" placeholder="DNI" value="" required>
+                      <div class="invalid-feedback">
+                          Debe introducir un dni valido
+                        </div>
+                  </div>
+      
+                  <div class="col-12">
+                    <input type="email" class="form-control" id="email" placeholder="e-mail" required>
+                    <div class="invalid-feedback">
+                      Please enter a valid email address for shipping updates.
+                    </div>
+                  </div>
+  
+                  <div class="col-sm-6">
+                      <input type="date" class="form-control" id="b_date" placeholder="Fecha de nacimiento" value="" required>
+                  </div>
+  
+                  <div class="col-12">
+                      <input type="number" class="form-control" id="cel" placeholder="Celular" value="" required>
+                      <div class="invalid-feedback">
+                          Debe introducir un celular valido
+                        </div>
+                  </div>
+      
+                  <div class="col-12">
+                    <input type="text" class="form-control" id="address" placeholder="Domicilio" required>
+                    <div class="invalid-feedback">
+                      Please enter your shipping address.
+                    </div>
+                  </div>
+        
+                  <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="save-info">
+                    <label class="form-check-label" for="save-info">Save this information for next time</label>
+                  </div>
+      
+  
+              <div class="grey_box">
+                 <p>Al asociarte el 31 de Marzo, estarás abonando $3406 que corresponden a la suma de $106 por 1 un día de Marzo y $3.300 por el mes de Mayo.</p> 
+              </div>
+              
+   
+      
+                <hr class="my-4">
+      
+                <a href="paso_2.html"><button class="w-100 btn btn-primary btn-lg" type="submit">Continuar</button></a>
+              <!-- </form> -->
             </div>
-            
- 
-    
-              <hr class="my-4">
-    
-              <a href="paso_2.html"><button class="w-100 btn btn-primary btn-lg" type="submit">Continuar</button></a>
-            <!-- </form> -->
+            </div>
+  
+  
+  
+  
           </div>
-          </div>
-
-
 
 
         </div>
+            
       </main>
     
       <footer class="my-5 pt-5 text-muted text-center text-small">

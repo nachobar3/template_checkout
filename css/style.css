@@ -10,14 +10,19 @@ input[type=number] {
   -moz-appearance: textfield;
 }
 
-main {
-    margin: 15px 20px;
+.text-center {
+
+    padding: 0px 20px;
 }
 
-.py-5 {
-    padding: 1px 0px;
+.background {
+    background: linear-gradient(135deg, #172a74, #21a9af);
+    color: white;
 }
 
+.content {
+    margin: 15px 30px;
+}
 .d-block {
     margin: 0px;
 }
@@ -28,7 +33,7 @@ main {
 
 .grey_box {
     background-color: rgba(207, 207, 207, 0.719);
-    padding: 7px;
+    padding: 10px;
     font-size: 17px;
 }
 
@@ -55,15 +60,24 @@ main {
 }
 
 @media only screen and (min-width: 900px){
-    main {
-        margin: 15px 40px;
+    .full_background {
+        background: linear-gradient(135deg, #172a74, #21a9af);
     }
-    .d-block {
-    display: none!important;
+    .background {
+        background: none;
+    }
+    .content {
+        margin: 15px 40px;
+        padding: 10px 20px;
+        border-radius: 5px;
     }
     .grid {
         display: grid;
         grid-template-columns: 1fr 1fr;
+    }
+    .grid_datos {
+        display: grid;
+        grid-template-columns: 0.5fr 1fr;
     }
     
      .col-md-7 {
