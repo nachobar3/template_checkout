@@ -49,8 +49,12 @@ input[type=number] {
     font-size: 12px;
 }
 
+.specifics {
+    font-size: 12px;
+}
+
 .form-check-label {
-    font-size: 16px;
+    align-items: center;
 }
 
 .form-check-input {
@@ -60,6 +64,20 @@ input[type=number] {
 
 .accordion-body {
     padding: 0.5rem 0.5rem;
+}
+
+.form-control {
+    padding: .3rem .75rem;
+    font-size: 0.75rem;
+}
+
+.boxmargins {
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.bg-light {
+    background-color: none;
 }
 
 @media only screen and (min-width: 900px){
@@ -90,8 +108,11 @@ input[type=number] {
         display: grid;
         grid-template-columns: 0.5fr 1fr;
     }
+    .bg-light {
+        background-color: whitesmoke;
+    }
     
-     .col-md-7 {
+    .col-md-7 {
             width: 100%;
         }
     
