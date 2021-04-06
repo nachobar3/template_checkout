@@ -24,7 +24,7 @@ input[type=number] {
 }
 
 .content {
-    margin: 15px 30px;
+    margin: 15px 20px;
 }
 .d-block {
     margin: 0px;
@@ -67,7 +67,7 @@ input[type=number] {
 }
 
 .form-control {
-    padding: .3rem .75rem;
+    padding: .45rem .55rem;
     font-size: 0.75rem;
 }
 
@@ -80,6 +80,10 @@ input[type=number] {
     background: white;
 }
 
+.desktop_cart {
+    display: none;
+}
+
 @media only screen and (min-width: 900px){
     .full_background {
         background: linear-gradient(135deg, #172a74, #21a9af);
@@ -87,9 +91,8 @@ input[type=number] {
     .background {
         background: none;
     }
-    .content {
+    .contenedor {
         margin: 15px 20px;
-        padding: 10px 20px;
         border-radius: 5px;
     }
     .text-center {
@@ -125,6 +128,12 @@ input[type=number] {
     }
     .col-md-5 {
         width: 90%;
+     }
+     .mobile_cart {
+         display: none;
+     }
+     .desktop_cart {
+         display: inline-block;
      }
    
     

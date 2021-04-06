@@ -32,21 +32,24 @@
     <main class="grid_datos">
         
         <div class="py-5 text-center background">
-          <h2>Bienvenido a asociate.club</h2>
+          <img src="images/logo_asociate_blanco.png" alt="" width="100%">
           <p class="lead">Para inscribirte al Plan Local de la sede Al Rio de SportClub, vamos a nescesitar que llenes el siguiente formulario</p>
         </div>
-        <div class="content bg-light">
-            <nav aria-label="breadcrumb">
+        <div class="bg-light contenedor">
+            <section class="content">
+              <nav aria-label="breadcrumb">
             <ol class="breadcrumb">
               <li class="breadcrumb-item active" aria-current="page">Datos</li>
               <li class="breadcrumb-item"><a href="paso_2.html">Pago</a></li>
             </ol>
             </nav>
             <h4 class="mb-3">Datos Personales</h4>
+            </section>
+            
             <div class="row g-5 grid">
           
 
-              <div class="col-md-5 col-lg-4 order-md-last">
+              <div class="col-md-5 col-lg-4 order-md-last mobile_cart">
                   <div class="accordion" id="accordionExample">
                       <div class="accordion-item">
                         <h2 class="accordion-header" id="headingOne">
@@ -94,14 +97,17 @@
                       
                     </div>
                 </div>
+              <div class="col-md-5 col-lg-4 order-md-last desktop_cart">
+                <p>Holi this needs atention</p>
+              </div>
   
   
                 
-            <div class="col-md-7 col-lg-8">
+            <div class="col-md-7 col-lg-8 ">
               
               <!-- <form class="needs-validation" novalidate> -->
               
-                <div class="row g-3">
+                <div class="row g-3 content">
                   <div class="col-sm-6">
                     <input type="text" class="form-control" id="firstName" placeholder="Nombre" value="" required>
                     <div class="invalid-feedback">
@@ -144,13 +150,13 @@
                   <div class="col-12">
                     <input type="text" class="form-control" id="address" placeholder="Domicilio" required>
                     <div class="invalid-feedback">
-                      Please enter your shipping address.
+                      Porfavor ingrese una direccion valida
                     </div>
                   </div>
         
                   <div class="form-check">
                     <input type="checkbox" class="form-check-input" id="save-info">
-                    <label class="form-check-label specifics" for="save-info">Save this information for next time</label>
+                    <label class="form-check-label specifics" for="save-info">Guardar informacion</label>
                   </div>
       
   
