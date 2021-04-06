@@ -34,14 +34,19 @@
     <div class="background text-center">
       <img src="images/card-image-standard-credit-card.png" alt="" width="100%" class="order-md-first">
     </div>
-    <div class=" g-5 content bg-light">
-      <nav aria-label="breadcrumb">
-        <ol class="breadcrumb">
-          <li class="breadcrumb-item" aria-current="page"><a href="index.html">Datos</a></li>
-          <li class="breadcrumb-item active">Pago</li>
-        </ol>
-      </nav>
-      <h4 class="mb-3">Pago</h4>
+    <div class="g-5 contenedor bg-light">
+      <div class="content">
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item">Elegi tu club</li>
+            <li class="breadcrumb-item" aria-current="page">Informacion del socio</li>
+            <li class="breadcrumb-item active"> <strong>Pago</strong> </li>
+          </ol>
+          </nav>
+        <h4 >Pago</h4>
+      </div> 
+      
+      
       <div class="row g-5 grid">
       
         <div class="col-md-5 col-lg-4 order-md-last">
@@ -93,9 +98,9 @@
           </div>
       </div>
 
-        <div class="col-md-7 col-lg-8 " > <!-- Este es lo que ordena a la izquierda-->
+        <div class="col-md-7 col-lg-8 content" > <!-- Este es lo que ordena a la izquierda-->
     
-              <div>
+              <div style="margin-top: 50px;">
                 <div class="form-check">
                   <input id="credit" name="paymentMethod" type="radio" class="form-check-input" checked required>
                   <label class="form-check-label" for="credit">Credit card</label>
